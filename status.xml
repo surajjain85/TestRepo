@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+
+<!-- <parameter name="browser" value="CHROME"></parameter> -->
+  
+  <test name="feb24_prac" >
+  <parameter name="browser" value="chrome"></parameter> 
+    <classes>
+       <class name="feb24_prac.OPENCHROME" />
+    </classes>
+  </test>
+ 
+ <test name="feb24_prac1" >
+ <parameter name="browser" value="firefox"></parameter> 
+    <classes>
+       <class name="feb24_prac.OPENFF" />
+    </classes>
+  </test>
+  
+  <test name="feb24_prac2" >
+  <parameter name="browser" value="ie"></parameter> 
+    <classes>
+       <class name="feb24_prac.OPENIE" />
+    </classes>
+  </test>
+  
+</suite>
+ 
